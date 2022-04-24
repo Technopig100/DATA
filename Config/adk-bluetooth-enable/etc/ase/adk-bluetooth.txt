@@ -1,0 +1,6 @@
+################################################################
+#########   bluetooth management software installed     ##########
+################################################################
+
+This packeage is to install and enable bluetooth service for ADK-Linux 
+"systemctl enable --now bluetooth.service"

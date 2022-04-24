@@ -1,0 +1,26 @@
+#!/bin/bash
+echo "#################################"
+echo "Start adk-before"
+echo "#################################"
+
+echo "Populate Core Team keys"
+echo "#################################"
+pacman-key --init
+pacman-key --populate archlinux
+pacman-key --populate adklinux
+
+#keys for adk-linux 
+#pacman-key --lsign-key 0A74C5909A8A2600AD012AF67B22BF2F72D54DAC
+
+
+echo "Changing into our own linux.preset"
+echo "#################################"
+mv /etc/mkinitcpio.d/adk /etc/mkinitcpio.d/linux.preset
+cp /usr/lib/adk-release /usr/lib/os-release
+rm -f /etc/arch-release
+mv -f /usr/lib/dot.bashrc /etc/skel/.bashrc
+
+echo "#################################"
+echo "End adk-before"
+echo "#################################"
+rm /usr/local/bin/adk-before

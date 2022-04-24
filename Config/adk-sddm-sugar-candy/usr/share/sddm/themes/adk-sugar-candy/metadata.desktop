@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=ADK Sugar Candy
+Description=Premium Sugar for SDDM
+Author=Jacob Durant
+Copyright=
+License=GPL-3.0-or-later
+Type=sddm-theme
+Version=1.6
+Website=https://github.com/Technopig100
+Screenshot=Previews/ADK-SDDM.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=technopig@hotmail.com.com
+Theme-Id=adk-sugar-candy
+Theme-API=2.11

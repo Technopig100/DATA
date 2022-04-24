@@ -1,0 +1,6 @@
+################################################################
+#########   Openssh management software installed     ##########
+################################################################
+
+This packeage is to install and enable openssh service for ADK-Linux  
+"systemctl enable --now sshd.service" ### to enable openssh services!
