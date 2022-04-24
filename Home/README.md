@@ -1,1 +1,0 @@
-<h3 align="center">Website for ADK-Linux</h3>

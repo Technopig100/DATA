@@ -1,7 +1,0 @@
-################################################################
-#########   printer management software installed     ##########
-################################################################
-
-This packeage is to install and enable print service for ADK-Linux  
-"systemctl enable --now cups.service" ### to enable printer services!
-"systemctl enable --now avahi-daemon.service" ### to publish and discover services and hosts running on a local network

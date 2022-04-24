@@ -1,1 +1,0 @@
-# Blackcomb cinnamon desktop settings
