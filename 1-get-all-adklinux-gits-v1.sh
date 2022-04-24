@@ -17,6 +17,8 @@ echo "Fill the array with the original folders first"
 # use ls -d */ > list to get the list of the created githubs and copy/paste in
 
 directories=(
+	Home/
+	adk-pkgbuild/
 	adk-linux/
 )
 
