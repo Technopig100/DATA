@@ -10,9 +10,14 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+echo "Building folders"
 
+mkdir Config
+mkdir Repo
+
+echo
 echo "This gets all the existing githubs at once"
-echo "Fill the array with the original folders first"
+echo "And fill the array with the folders"
 
 # use ls -d */ > list to get the list of the created githubs and copy/paste in
 
