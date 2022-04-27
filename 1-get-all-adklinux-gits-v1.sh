@@ -16,6 +16,7 @@ mkdir -p Config/ADK-Build
 mkdir -p Config/ADK-Complete
 mkdir -p Config/ADK-Extras
 mkdir Repo
+mkdir Extras
 mkdir Arch-Linux-installer
 
 echo
@@ -69,6 +70,33 @@ for name in "${directories[@]}"; do
 done
 
 cd ..
+cd ..
+
+cd Extras/
+
+echo "This gets all the existing githubs at once"
+echo "Fill the array with the original folders first"
+
+# use ls -d */ > list to get the list of the created githubs and copy/paste in
+
+directories=(
+	adk-keys-and-repos /
+	Technopig100/
+
+)
+
+count=0
+
+for name in "${directories[@]}"; do
+	count=$[count+1]
+	tput setaf 1;echo "Github "$count;tput sgr0;
+	# if there is no folder then make one
+	git clone https://github.com/Technopig100/$name
+	echo "#################################################"
+	echo "################  "$(basename `pwd`)" done"
+	echo "#################################################"
+done
+
 cd ..
 cd Config/ADK-Complete
 
