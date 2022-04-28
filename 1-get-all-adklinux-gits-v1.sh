@@ -81,6 +81,7 @@ echo "Fill the array with the original folders first"
 
 directories=(
 	adk-keys-and-repos /
+	Technopig100/
 
 )
 
