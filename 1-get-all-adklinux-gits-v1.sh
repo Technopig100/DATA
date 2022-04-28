@@ -110,6 +110,7 @@ directories=(
 	adk-dark/
 	adk-grub-dark/
 	adk-grub-light/
+	adk-ice/
 	adklinux-iso-config/
 	adklinux-plasma/
 	adk-mirrorlist/
@@ -121,9 +122,6 @@ directories=(
 	adk-sddm-sugar-candy/
 	adk-printer-enable/
 	adk-ssh-enable/
-	blackcomb/
-	blackcomb-wallpares/
-	blackcomb-xp/
 	lsb_release/
 
 )
