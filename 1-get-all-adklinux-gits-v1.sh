@@ -230,7 +230,6 @@ echo "Fill the array with the original folders first"
 directories=(
 	aa/
 	archlis/
-	adk-keys-and-repos/
 )
 
 count=0
