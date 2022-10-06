@@ -243,7 +243,7 @@ for name in "${directories[@]}"; do
 	echo "################  "$(basename `pwd`)" done"
 	echo "#################################################"
 
-sudo rm -r .git
+# sudo rm -r .git
 
 done
 
